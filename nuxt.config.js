@@ -22,8 +22,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
     ],
     script: [
+      // { hid: 'threejs', src: '/scripts/three.min.js', async: true, defer: true },
       // Schema.org definitions
-      { hid: 'threejs', src: '/scripts/three.min.js', async: true, defer: true },
       {
         type: 'application/ld+json', json: 
         {
