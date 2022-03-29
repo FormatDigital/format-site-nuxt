@@ -26,7 +26,39 @@
   line-height: 1.4;
   grid-column: span 2;
 
-  @media (min-width: bp.$md) {
+  @media (min-width: bp.$lg) {
     grid-column: unset;
+  }
+
+}
+
+.c-service_card__services {
+  --service-space: 0.5em;
+  margin-top: auto;
+  grid-column: span 2;
+  font-size: 14px;
+  line-height: 1.4;
+  
+  @media (min-width: bp.$lg) {
+    grid-column: 1 / span 2;    
+  }
+
+  &::v-deep li {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: var(--service-space);
+    }
+    &:not(:first-child) {
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        border-radius: 2px;
+        background-color: currentColor;
+        margin: -0.2em var(--service-space) 0 0;
+        vertical-align: middle;
+      }
+    }
   }
 }

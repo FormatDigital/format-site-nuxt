@@ -3,6 +3,7 @@
     <h3 class="c-service_card__title">{{service.title}}</h3>
     <img :src="require(`@/assets/img/service-icons/${service.icon}`)" :alt="`${service.title} Icon`"  class="c-service_card__icon">
     <div class="c-service_card__description  t-richtext" v-html="service.description"></div>
+    <div class="c-service_card__services" v-html="service.services"></div>
   </article>
 </template>
 

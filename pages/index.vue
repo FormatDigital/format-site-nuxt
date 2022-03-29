@@ -80,26 +80,26 @@ export default {
       services: [
         {
           title: 'Strategy',
-          description: `<p>A successful digital project begins with an in-depth look at your organisation and where you want it to go. The next step is defining the project’s goals, aligned with business goals, to create a strategy that guides all the decisions made throughout the project.</p>
-            <p>Digital Strategy • Requirements Gathering</p>`,
+          description: `<p>A successful digital project begins with an in-depth look at your organisation and where you want it to go. The next step is defining the project’s goals, aligned with business goals, to create a strategy that guides all the decisions made throughout the project.</p>`,
+          services: '<ul class="services-list"><li>Digital Strategy</li><li>Requirements Gathering</li></ul>',
           icon: 'service-icon-strategy.svg'
         },
         {
           title: 'Design',
-          description: `<p>Your website is a critical touch-point between your audience and your business and is often how they first interact with it. Whether you need a small website design or large-scale design system, a visual design that’s created with empathy and a well-thought-out user experience ensures you’ll leave a lasting impression.</p>
-            <p>User Experience Design • Web Design • User Interface Design • Prototyping • Information Architecture</p>`,
+          description: `<p>Your website is a critical touch-point between your audience and your business and is often how they first interact with it. Whether you need a small website design or large-scale design system, a visual design that’s created with empathy and a well-thought-out user experience ensures you’ll leave a lasting impression.</p>`,
+          services: '<ul class="services-list"><li>User Experience Design</li><li>Web Design</li><li>User Interface Design</li><li>Prototyping</li><li>Information Architecture</li></ul>',
           icon: 'service-icon-design.svg'
         },
         {
           title: 'Development',
-          description: `<p>Building a digital product is equal parts art and science. A well-engineered website is performant, secure, accessible, provides a great editing experience, adheres to industry best-practices and is crafted with attention to detail to create a cohesive user experience.</p>
-            <p>Front-End Development • Front-End Architecture • Headless CMS Development • CMS Integration • Vue &amp; React Development</p>`,
+          description: `<p>Building a digital product is equal parts art and science. A well-engineered website is performant, secure, accessible, provides a great editing experience, adheres to industry best-practices and is crafted with attention to detail to create a cohesive user experience.</p>`,
+          services: '<ul class="services-list"><li>Front-End Development</li><li>Front-End Architecture</li><li>Headless CMS Development</li><li>CMS Integration</li><li>Vue &amp; React Development</li></ul>',
           icon: 'service-icon-development.svg'
         },
         {
           title: 'Support',
-          description: `<p>A successful launch is really just the beginning. Maintenance and support, combined with on-going analysis measured against strategic goals, informs the evolution of your project and ensures it creates lasting value.</p>
-          <p>Maintenance • Performance Monitoring</p>`,
+          description: `<p>A successful launch is really just the beginning. Maintenance and support, combined with on-going analysis measured against strategic goals, informs the evolution of your project and ensures it creates lasting value.</p>`,
+          services: '<ul class="services-list"><li>Maintenance</li><li>Performance Monitoring</li></ul>',
           icon: 'service-icon-support.svg'
         },
       ]

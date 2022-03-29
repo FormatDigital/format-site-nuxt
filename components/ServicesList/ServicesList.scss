@@ -7,7 +7,7 @@
   align-content: stretch;
   perspective: 1000px;
   
-  @media(min-width: bp.$lg){
+  @media(min-width: bp.$xl){
     gap: var(--grid-gutter-width);
     grid-template-columns: 1fr 1fr;
   }
